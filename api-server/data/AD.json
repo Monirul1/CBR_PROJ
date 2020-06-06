@@ -1,0 +1,142 @@
+{
+	"countryCode": "AD",
+	"countryCode3": "AND",
+	"IOT": "",
+	"IMT": "",
+	"legalEntity": "",
+	"currencyCode": "EUR",
+	"dswSalesOrgCode": "0483",
+	"vatSettings": {
+		"individuals": {
+			"required": false,
+			"formatRegex": "",
+			"prefix": "",
+			"checkVatEnabled": false,
+			"vatMaskPattern": ""
+		},
+	        "companies": {
+			"required": false,
+			"formatRegex": "",
+			"prefix": "",
+			"checkVatEnabled": false,
+			"vatMaskPattern": ""
+		}
+	},
+	"taxNumber1Settings": {
+		"individuals": {
+			"required": false,
+			"formatRegex": ""
+		},
+		"companies": {
+			"required": false,
+			"formatRegex": ""
+		}
+	},
+	"allowSelfVatRegistration": false,
+	"requiresCompanyConfirmation": false,	
+	"priceIncludesTax": false,
+	"requiresCapturePaymentInCheckout": false,
+	"paymentMethods": [
+		"CREDIT_CARD",
+		"PURCHASE_ORDER",
+		"INVOICE"
+	],
+	"phoneNumberCountryCode": "",
+	"phoneNumberFormat": [""],
+	"ipgProjectCode": "IBMLOTUS",
+	"requiresTandCAcceptance": true,
+	"informalGreetingField": "FIRST_NAME",
+	"postalCodeFormatRegex": "",
+	"addressFieldOrder": [
+		["companyName"],
+		["firstName", "lastName"],
+		["addressLine1"],
+		["addressLine2"],
+		["city", "stateProvince"],
+		["countryName"],
+		["phoneNumber"]
+	],
+	"technicalFieldOrder":[  	
+		["firstName", "lastName"],
+		["email"],
+		["phoneNumber", "countryName"]
+	],
+	"accountAddressSettings": {
+		"companyName": "OPTIONAL",
+		"firstName": "NOT_COLLECTED",
+		"lastName": "NOT_COLLECTED",
+		"addressLine1": "OPTIONAL",
+		"addressLine2": "OPTIONAL",
+		"city": "OPTIONAL",
+		"stateProvince": "NOT_COLLECTED",
+		"postalCode": "NOT_COLLECTED",
+		"phoneNumber": "NOT_COLLECTED",
+		"email": "NOT_COLLECTED"
+	},
+	"billingAddressSettings": {
+		"companyName": "NOT_COLLECTED",
+		"firstName": "OPTIONAL",
+		"lastName": "OPTIONAL",
+		"addressLine1": "OPTIONAL",
+		"addressLine2": "OPTIONAL",
+		"city": "OPTIONAL",
+		"stateProvince": "NOT_COLLECTED",
+		"postalCode": "NOT_COLLECTED",
+		"phoneNumber": "NOT_COLLECTED",
+		"email": "NOT_COLLECTED"
+	},
+	"technicalAddressSettings": {
+		"firstName": "REQUIRED",
+		"lastName": "REQUIRED",
+		"phoneNumber": "NOT_COLLECTED",
+		"email": "REQUIRED"
+	},
+	"shippingAddressSettings": {
+		"companyName": "OPTIONAL",
+		"firstName": "OPTIONAL",
+		"lastName": "OPTIONAL",
+		"addressLine1": "OPTIONAL",
+		"addressLine2": "OPTIONAL",
+		"city": "OPTIONAL",
+		"stateProvince": "NOT_COLLECTED",
+		"postalCode": "NOT_COLLECTED",
+		"phoneNumber": "NOT_COLLECTED",
+		"email": "NOT_COLLECTED"
+	},
+	"supportedLanguages": {
+		"en": {
+			"textDirection": "L2R",
+			"countryName": "Andorra",
+			"privacyUrl": "http://www.ibm.com/privacy/ad/en/",
+			"ecareUrl": "https://myibm.ibm.com/support/forum/stsSFDC/",
+			"dateFormat": "D MMMM YYYY",
+			"currencyFormatting": {
+			    "symbol": "€",
+			    "symbolPosition": "BACK", 
+			    "symbolSpaceNeeded": true,
+			    "code": "EUR",
+			    "codePosition": "NONE",
+			    "codeSpaceNeeded": true,
+			    "decimalSeperator": ",",
+			    "groupingSeperator": ".",
+			    "groupingSizeInitial": 3,
+			    "groupingSizeRemainder": 3, 
+			    "decimalPlaces": 2,
+			    "roundToNearest": 0.01
+			},  
+			"vatLabel": {
+				"individuals": "VAT ID",
+				"companies": "VAT ID"
+			},			
+			"taxNumber1Label": {
+				"individuals": "",
+				"companies": ""
+            },
+			"stateProvList":
+			[
+				
+				
+			]
+		}
+	}
+}

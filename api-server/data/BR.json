@@ -1,0 +1,279 @@
+{
+	"countryCode": "BR",
+	"countryCode3": "BRA",
+	"IOT": "LATAM",
+	"IMT": "BRAZIL",
+	"legalEntity": "IBM Brazil",
+	"currencyCode": "BRL",
+	"dswSalesOrgCode": "0022",
+	"vatSettings": {
+		"individuals": {
+			"required": true,
+			"formatRegex": "^\\d{11}$",
+			"prefix": "",
+			"checkVatEnabled": false,
+			"vatMaskPattern": ""
+		},
+		"companies": {
+			"required": true,
+			"formatRegex": "^(?!(\\d)\\1{13})\\d{14}$",
+			"prefix": "",
+			"checkVatEnabled": false,
+			"vatMaskPattern": "00.000.000/0000-00"
+		}
+	},
+	"taxNumber1Settings": {
+		"individuals": {
+			"required": false,
+			"formatRegex": ""
+		},
+		"companies": {
+			"required": false,
+			"formatRegex": ""
+		}
+	},
+	"allowSelfVatRegistration": false,
+	"requiresCompanyConfirmation": true,
+	"priceIncludesTax": true,
+	"requiresCapturePaymentInCheckout": false,
+	"paymentMethods": [
+		"CREDIT_CARD", "PURCHASE_ORDER", "INVOICE"
+	],
+	"phoneNumberCountryCode": "+55",
+	"phoneNumberFormat": [""],
+	"ipgProjectCode": "IBMLOTUS",
+	"requiresTandCAcceptance": true,
+	"informalGreetingField": "FIRST_NAME",
+	"postalCodeFormatRegex": "^\\d{5}[\\-]\\d{3}$",
+	"addressFieldOrder": [
+		["companyName"],
+		["firstName", "lastName"],
+		["addressLine1"],
+		["addressLine2"],
+		["city", "stateProvince"],
+		["postalCode", "countryName"]
+	],
+	"technicalFieldOrder":[  	
+		["firstName", "lastName"],
+		["email"],
+		["phoneNumber", "countryName"]
+	],
+	"accountAddressSettings": {
+		"companyName": "REQUIRED",
+		"firstName": "NOT_COLLECTED",
+		"lastName": "NOT_COLLECTED",
+		"addressLine1": "REQUIRED",
+		"addressLine2": "OPTIONAL",
+		"city": "REQUIRED",
+		"stateProvince": "REQUIRED",
+		"postalCode": "OPTIONAL",
+		"phoneNumber": "NOT_COLLECTED",
+		"email": "NOT_COLLECTED"
+	},
+	"billingAddressSettings": {
+		"companyName": "NOT_COLLECTED",
+		"firstName": "REQUIRED",
+		"lastName": "REQUIRED",
+		"addressLine1": "REQUIRED",
+		"addressLine2": "OPTIONAL",
+		"city": "REQUIRED",
+		"stateProvince": "REQUIRED",
+		"postalCode": "OPTIONAL",
+		"phoneNumber": "NOT_COLLECTED",
+		"email": "NOT_COLLECTED"
+	},
+	"technicalAddressSettings": {
+		"firstName": "REQUIRED",
+		"lastName": "REQUIRED",
+		"phoneNumber": "NOT_COLLECTED",
+		"email": "REQUIRED"
+	},
+	"shippingAddressSettings": {
+		"companyName": "NOT_COLLECTED",
+		"firstName": "REQUIRED",
+		"lastName": "REQUIRED",
+		"addressLine1": "REQUIRED",
+		"addressLine2": "OPTIONAL",
+		"city": "REQUIRED",
+		"stateProvince": "REQUIRED",
+		"postalCode": "OPTIONAL",
+		"phoneNumber": "NOT_COLLECTED",
+		"email": "NOT_COLLECTED"
+	},
+	"additionalFields": {
+		"companies": {
+			"municipalRegistration": "REQUIRED",
+			"stateRegistration": "REQUIRED"
+		},
+		"individuals": {}
+	},
+	"supportedLanguages": {
+		"pt": {
+			"textDirection": "L2R",
+			"countryName": "Brazil",
+			"privacyUrl": "http://www.ibm.com/privacy/br/pt/",
+			"ecareUrl": "https://myibm.ibm.com/support/forum/stsSFDC/",
+			"dateFormat": "D MMMM YYYY",
+			"currencyFormatting": {
+			    "symbol": "R$.",
+			    "symbolPosition": "FRONT", 
+			    "symbolSpaceNeeded": true,
+			    "code": "BRL",
+			    "codePosition": "NONE",
+			    "codeSpaceNeeded": true,
+			    "decimalSeperator": ",",
+			    "groupingSeperator": ".",
+			    "groupingSizeInitial": 3,
+			    "groupingSizeRemainder": 3, 
+			    "decimalPlaces": 2,
+			    "roundToNearest": 0.01
+			},
+			"vatLabel": {
+				"individuals": "CPF",
+				"companies": "CNPJ"
+			},
+			"taxNumber1Label": {
+				"individuals": "",
+				"companies": ""
+            },
+			"stateProvList":
+			[
+				{
+					"code": "AC",
+					"taxCode": "",
+					"displayName": "Acre"
+				},
+				{
+					"code": "AL",
+					"taxCode": "",
+					"displayName": "Alagoas"
+				},
+				{
+					"code": "AP",
+					"taxCode": "",
+					"displayName": "Amapá"
+				},
+				{
+					"code": "AM",
+					"taxCode": "",
+					"displayName": "Amazonas"
+				},
+				{
+					"code": "BA",
+					"taxCode": "",
+					"displayName": "Bahia"
+				},
+				{
+					"code": "CE",
+					"taxCode": "",
+					"displayName": "Ceará"
+				},
+				{
+					"code": "DF",
+					"taxCode": "",
+					"displayName": "Distrito Federal"
+				},
+				{
+					"code": "ES",
+					"taxCode": "",
+					"displayName": "Espirito Santo"
+				},
+				{
+					"code": "GO",
+					"taxCode": "",
+					"displayName": "Goiás"
+				},
+				{
+					"code": "MA",
+					"taxCode": "",
+					"displayName": "Maranhão"
+				},
+				{
+					"code": "MT",
+					"taxCode": "",
+					"displayName": "Mato Grosso"
+				},
+				{
+					"code": "MS",
+					"taxCode": "",
+					"displayName": "Mato Grosso do Sul"
+				},
+				{
+					"code": "MG",
+					"taxCode": "",
+					"displayName": "Minas Gerais"
+				},
+				{
+					"code": "PA",
+					"taxCode": "",
+					"displayName": "Pará"
+				},
+				{
+					"code": "PB",
+					"taxCode": "",
+					"displayName": "Paraíba"
+				},
+				{
+					"code": "PR",
+					"taxCode": "",
+					"displayName": "Paraná"
+				},
+				{
+					"code": "PE",
+					"taxCode": "",
+					"displayName": "Pernambuco"
+				},
+				{
+					"code": "PI",
+					"taxCode": "",
+					"displayName": "Piauí"
+				},
+				{
+					"code": "RJ",
+					"taxCode": "",
+					"displayName": "Rio de Janeiro"
+				},
+				{
+					"code": "RN",
+					"taxCode": "",
+					"displayName": "Rio Grande do Norte"
+				},
+				{
+					"code": "RS",
+					"taxCode": "",
+					"displayName": "Rio Grande do Sul"
+				},
+				{
+					"code": "RO",
+					"taxCode": "",
+					"displayName": "Rondônia"
+				},
+				{
+					"code": "RR",
+					"taxCode": "",
+					"displayName": "Roraima"
+				},
+				{
+					"code": "SC",
+					"taxCode": "",
+					"displayName": "Santa Catarina"
+				},
+				{
+					"code": "SP",
+					"taxCode": "",
+					"displayName": "São Paulo"
+				},
+				{
+					"code": "SE",
+					"taxCode": "",
+					"displayName": "Sergipe"
+				},
+				{
+					"code": "TO",
+					"taxCode": "",
+					"displayName": "Tocantins"
+				}
+			]
+		}
+	}
+}

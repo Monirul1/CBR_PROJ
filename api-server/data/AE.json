@@ -1,0 +1,172 @@
+{
+	"countryCode": "AE",
+	"countryCode3": "ARE",
+	"IOT": "MEA",
+	"IMT": "MIDDLE_EAST_AND_PAKISTAN",
+	"legalEntity": "IBM PDL",
+	"currencyCode": "USD",
+	"dswSalesOrgCode": "0483",
+	"vatSettings": {
+		"individuals": {
+			"required": true,
+			"formatRegex": "^\\d{13}[a-zA-Z0-9]{2}$",
+			"prefix": "",
+			"checkVatEnabled": false,
+			"vatMaskPattern": ""
+		},
+	        "companies": {
+			"required": true,
+			"formatRegex": "^\\d{13}[a-zA-Z0-9]{2}$",
+			"prefix": "",
+			"checkVatEnabled": false,
+			"vatMaskPattern": ""
+		}
+	},
+	"taxNumber1Settings": {
+		"individuals": {
+			"required": false,
+			"formatRegex": ""
+		},
+		"companies": {
+			"required": false,
+			"formatRegex": ""
+		}
+	},
+	"allowSelfVatRegistration": false,
+	"requiresCompanyConfirmation": true,
+	"priceIncludesTax": false,
+	"requiresCapturePaymentInCheckout": false,
+	"paymentMethods": [
+		"CREDIT_CARD", "PURCHASE_ORDER", "INVOICE"
+	],
+	"phoneNumberCountryCode": "+971",
+	"phoneNumberFormat": [""],
+	"ipgProjectCode": "IBMLOTUS",
+	"requiresTandCAcceptance": true,
+	"informalGreetingField": "FIRST_NAME",
+	"postalCodeFormatRegex": "",
+	"addressFieldOrder": [
+		["companyName"],
+		["firstName", "lastName"],
+		["addressLine1"],
+		["addressLine2"],
+		["city", "stateProvince"],
+		["countryName"]
+	],
+	"technicalFieldOrder":[  	
+		["firstName", "lastName"],
+		["email"],
+		["phoneNumber", "countryName"]
+	],
+	"accountAddressSettings": {
+		"companyName": "REQUIRED",
+		"firstName": "NOT_COLLECTED",
+		"lastName": "NOT_COLLECTED",
+		"addressLine1": "REQUIRED",
+		"addressLine2": "OPTIONAL",
+		"city": "REQUIRED",
+		"stateProvince": "REQUIRED",
+		"postalCode": "NOT_COLLECTED",
+		"phoneNumber": "NOT_COLLECTED",
+		"email": "NOT_COLLECTED"
+	},
+	"billingAddressSettings": {
+		"companyName": "NOT_COLLECTED",
+		"firstName": "REQUIRED",
+		"lastName": "REQUIRED",
+		"addressLine1": "REQUIRED",
+		"addressLine2": "OPTIONAL",
+		"city": "REQUIRED",
+		"stateProvince": "REQUIRED",
+		"postalCode": "NOT_COLLECTED",
+		"phoneNumber": "NOT_COLLECTED",
+		"email": "NOT_COLLECTED"
+	},
+	"technicalAddressSettings": {
+		"firstName": "REQUIRED",
+		"lastName": "REQUIRED",
+		"phoneNumber": "NOT_COLLECTED",
+		"email": "REQUIRED"
+	},
+	"shippingAddressSettings": {
+		"companyName": "OPTIONAL",
+		"firstName": "REQUIRED",
+		"lastName": "REQUIRED",
+		"addressLine1": "REQUIRED",
+		"addressLine2": "OPTIONAL",
+		"city": "REQUIRED",
+		"stateProvince": "REQUIRED",
+		"postalCode": "NOT_COLLECTED",
+		"phoneNumber": "NOT_COLLECTED",
+		"email": "NOT_COLLECTED"
+	},
+	"supportedLanguages": {
+		"en": {
+			"textDirection": "L2R",
+			"countryName": "United Arab Emirates",
+			"privacyUrl": "https://www.ibm.com/privacy/ae/en/",
+			"ecareUrl": "https://myibm.ibm.com/support/forum/stsSFDC/",
+			"dateFormat": "D MMMM YYYY",
+			"currencyFormatting": {
+			    "symbol": "$",
+			    "symbolPosition": "FRONT", 
+			    "symbolSpaceNeeded": false,
+			    "code": "USD",
+			    "codePosition": "BACK",
+			    "codeSpaceNeeded": true,
+			    "decimalSeperator": ".",
+			    "groupingSeperator": ",",
+			    "groupingSizeInitial": 3,
+			    "groupingSizeRemainder": 3, 
+			    "decimalPlaces": 2,
+			    "roundToNearest": 0.01
+			},
+			"vatLabel": {
+				"individuals": "VAT ID",
+				"companies": "VAT ID"
+			},			
+			"taxNumber1Label": {
+				"individuals": "",
+				"companies": ""
+            },
+			"stateProvList":
+			[
+				{
+					"code": "AZ",
+					"taxCode": "",
+					"displayName": "Abu Dhabi"
+				},
+				{
+					"code": "AJ",
+					"taxCode": "",
+					"displayName": "Ajman"
+				},
+				{
+					"code": "DU",
+					"taxCode": "",
+					"displayName": "Dubai"
+				},
+				{
+					"code": "FU",
+					"taxCode": "",
+					"displayName": "Fujairah"
+				},
+				{
+					"code": "RK",
+					"taxCode": "",
+					"displayName": "Ras al-Khaimah"
+				},
+				{
+					"code": "SH",
+					"taxCode": "",
+					"displayName": "Sharjah"
+				},
+				{
+					"code": "UQ",
+					"taxCode": "",
+					"displayName": "Umm al-Quwain"
+				}
+			]
+		}
+	}
+}
